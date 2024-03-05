@@ -4,6 +4,8 @@ import charactersData from "./characters.json" assert { type: "json" };
 import Characters from "../models/Character.js";
 import Seasons from "../models/Season.js";
 import seasonsData from "./seasons.json" assert {type: "json"}
+import Quotes from "../models/Quote.js"
+import quotesData from "./quotes.json" assert { type: "json"}
 
 Characters.deleteMany({})
   .then(() => Characters.create(charactersData))
@@ -14,6 +16,13 @@ Characters.deleteMany({})
 
 Seasons.deleteMany({})
   .then(() => Seasons.create(seasonsData))
+  .then(() => console.log("done"))
+  .then(() => mongoose.disconnect())
+  .catch((err) => console.log("Error", err))
+
+
+Quotes.deleteMany({})
+  .then(() => Quotes.create(quotesData))
   .then(() => console.log("done"))
   .then(() => mongoose.disconnect())
   .catch((err) => console.log("Error", err))
