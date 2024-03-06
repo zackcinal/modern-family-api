@@ -4,8 +4,12 @@
 
 Reach me here if there are any bugs or if you have any recommendations:
 zackcinal@gmail.com
-# About
 
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/zackcinal)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/zack-cinal)
+
+# About
 
 Welcome to the Modern Family API!
 
@@ -20,19 +24,58 @@ This API is still under construction, just like Haley's fashion sense, but we're
 
 Stay tuned for more functionalities in the future, like iconic quotes, episode details, and maybe even some closet-inspired magic tricks (but we can't promise Phil will approve).
 
-# How to use the API?
+# Data Model
+The database for this project is built using MongoDB and Mongoose, and contains three collections: "characters", "quotes" and "seasons". Here are the schemas for each collection:
 
-The first page of the API contains links to "Characters" and "Seasons".
-You can easily click them to navigate for both pages. 
 
-> To see characters:
->> http://localhost:3000/characters
+### Character Schema
+| Field          | Type    | Description                                   |
+| -------------- | ------- | --------------------------------------------- |
+| fullName       | String  | The full name of the character                |
+| aliases        | String  | Character's aliases                           |
+| occupation     | Array   | Occupations of the character                  |
+| family         | Array   | Family members                                |
+| dateOfBirth    | String  | Birth date of the character                   |
+| actor          | String  | Actor's name                                  |
+| picture        | String  | A URL pointing to an image of the character   |
 
->To see seasons data:
->> http://localhost:3000/seasons
+### Seasons Schema
+| Field          | Type    | Description                                   |
+| -------------- | ------- | --------------------------------------------- |
+| season         | Number  | Season                                        |
+| startDate      | String  | Date of the first episode of the season       |
+| endDate        | String  | Date of the last episode of the season        |
+| episodes       | Number  | Number of episodes in the season              |
+| overview       | String  | Explanation of the season                     |
 
->To see quotes:
->> http://localhost:3000/quotes
+### Quotes Schema
+| Field          | Type    | Description                                   |
+| -------------- | ------- | --------------------------------------------- |
+| quote          | String  | Quote                                         |
+| saidBy         | String  | Name of the character who said the quote      |
 
->To see a specific object by it's ID: 
->> http://localhost:3000/characters/65e751ee9892316de82bd188
+# API Routes
+
+/chracters
+<ul>
+<li>GET /characters/ Returns all the characters.</li>
+<li>GET /characters/id/ Returns the character by it's ID.</li>
+<li>POST /characters/ Creates a new character.</li>
+<li>PUT /characters/:id Updates an existing character.</li>
+<li>DELETE /:character/:id/ Deletes a character by characterId.</li>
+</ul>
+
+/seasons
+<ul>
+<li>GET /seasons/ Returns all the seasons.</li>
+<li>GET /seasons/id Returns the season by it's ID.</li>
+<li>PUT /seasons/:id Updates an existing season.</li>
+</ul>
+
+/quotes
+<ul>
+<li>GET /quotes/ Returns all the quotes.</li>
+<li>POST /quotes/ Creates a new quote.</li>
+<li>PUT /quotes/:id Updates an existing quote.</li>
+<li>DELETE /:quote/:id/ Deletes a quote by quotesId.</li>
+</ul>

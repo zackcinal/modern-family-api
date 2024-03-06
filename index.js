@@ -68,11 +68,38 @@ app.put("/characters/:id", (req, res) => {
   })
 })
 
+app.put("/seasons/:id", (req, res) => {
+  Seasons.findOneAndUpdate(
+    { _id: req.params.id },
+    req.body,
+    { new: true }
+  ).then(season => {
+    res.json(season)
+  })
+})
+
+app.put("/quotes/:id", (req, res) => {
+  Quotes.findOneAndUpdate(
+    { _id: req.params.id },
+    req.body,
+    { new: true }
+  ).then(quote => {
+    res.json(quote)
+  })
+})
+
 
 app.delete("/characters/:id", (req, res) => {
   Characters.findOneAndDelete({ _id: req.params.id })
     .then(character => {
       res.json(character)
+    })
+})
+
+app.delete("/quotes/:id", (req, res) => {
+  Quotes.findOneAndDelete({ _id: req.params.id })
+    .then(quote => {
+      res.json(quote)
     })
 })
 
