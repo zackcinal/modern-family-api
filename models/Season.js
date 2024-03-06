@@ -10,4 +10,4 @@ let SeasonSchema = new Schema({
     overview: String
 })
 
-export default mongoose.model("seasons", SeasonSchema)
+export default mongoose.model("Seasons", SeasonSchema)

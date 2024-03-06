@@ -1,6 +1,5 @@
 import express from "express";
 import connection from "./db/connection.js";
-import mongoose from "mongoose";
 import Characters from "./models/Character.js";
 import Seasons from "./models/Season.js";
 import Quotes from "./models/Quote.js";
@@ -28,11 +27,6 @@ app.get("/characters/:id", (req, res) => {
   })
 });
 
-app.post("/characters", (req, res) => {
-  Characters.create(req.body).then(character => {
-    res.json(character)
-  })
-})
 
 app.get("/seasons", (req, res) => {
   Seasons.find({}).then((season) => {
@@ -45,6 +39,24 @@ app.get("/seasons/:id", (req, res) => {
     res.json(season)
   })
 });
+
+app.get("/quotes", (req, res) => {
+  Quotes.find({}).then((quote) => {
+    res.json(quote)
+  })
+})
+
+app.post("/characters", (req, res) => {
+  Characters.create(req.body).then(character => {
+    res.json(character)
+  })
+})
+
+app.post("/quotes", (req, res) => {
+  Quotes.create(req.body).then(quotes => {
+    res.json(quotes)
+  })
+})
 
 app.put("/characters/:id", (req, res) => {
   Characters.findOneAndUpdate(
@@ -64,16 +76,6 @@ app.delete("/characters/:id", (req, res) => {
     })
 })
 
-app.get("/quotes", (req, res) => {
-  Quotes.find({}).then((quote) => {
-    res.json(quote)
-  })
-})
 
-app.post("/quotes", (req, res) => {
-  Quotes.create(req.body).then(quotes => {
-    res.json(quotes)
-  })
-})
 
 app.listen(3000, () => console.log("Hello!"));

@@ -9,15 +9,11 @@ import quotesData from "./quotes.json" assert { type: "json"}
 
 Characters.deleteMany({})
   .then(() => Characters.create(charactersData))
-  .then(() => console.log("done"))
-  .then(() => mongoose.disconnect())
   .catch((err) => console.log("Error", err));
 
 
 Seasons.deleteMany({})
   .then(() => Seasons.create(seasonsData))
-  .then(() => console.log("done"))
-  .then(() => mongoose.disconnect())
   .catch((err) => console.log("Error", err))
 
 

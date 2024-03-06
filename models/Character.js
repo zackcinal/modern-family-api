@@ -13,4 +13,4 @@ let CharacterSchema = new Schema({
     picture: String
 })
 
-export default mongoose.model("characters", CharacterSchema)
+export default mongoose.model("Character", CharacterSchema)

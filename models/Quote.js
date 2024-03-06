@@ -7,4 +7,4 @@ let QuotesSchema = new Schema({
     saidBy: String
 })
 
-export default mongoose.model("quotes", QuotesSchema)
+export default mongoose.model("Quotes", QuotesSchema)

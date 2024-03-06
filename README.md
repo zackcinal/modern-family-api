@@ -25,11 +25,14 @@ Stay tuned for more functionalities in the future, like iconic quotes, episode d
 The first page of the API contains links to "Characters" and "Seasons".
 You can easily click them to navigate for both pages. 
 
-> To go to characters data:
+> To see characters:
 >> http://localhost:3000/characters
 
->To go to seasons data: 
+>To see seasons data:
 >> http://localhost:3000/seasons
+
+>To see quotes:
+>> http://localhost:3000/quotes
 
 >To see a specific object by it's ID: 
 >> http://localhost:3000/characters/65e751ee9892316de82bd188
