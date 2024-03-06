@@ -2,12 +2,8 @@
 
 ![Modern Family PNG](https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Modern_Family_Title.svg/1200px-Modern_Family_Title.svg.png)
 
-Reach me here if there are any bugs or if you have any recommendations:
-zackcinal@gmail.com
-
-## 🔗 Links
+# 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/zackcinal)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/zack-cinal)
 
 # About
 
@@ -28,7 +24,7 @@ Stay tuned for more functionalities in the future, like iconic quotes, episode d
 The database for this project is built using MongoDB and Mongoose, and contains three collections: "characters", "quotes" and "seasons". Here are the schemas for each collection:
 
 
-### Character Schema
+## Character Schema
 | Field          | Type    | Description                                   |
 | -------------- | ------- | --------------------------------------------- |
 | fullName       | String  | The full name of the character                |
@@ -39,7 +35,7 @@ The database for this project is built using MongoDB and Mongoose, and contains 
 | actor          | String  | Actor's name                                  |
 | picture        | String  | A URL pointing to an image of the character   |
 
-### Seasons Schema
+## Seasons Schema
 | Field          | Type    | Description                                   |
 | -------------- | ------- | --------------------------------------------- |
 | season         | Number  | Season                                        |
@@ -48,7 +44,7 @@ The database for this project is built using MongoDB and Mongoose, and contains 
 | episodes       | Number  | Number of episodes in the season              |
 | overview       | String  | Explanation of the season                     |
 
-### Quotes Schema
+## Quotes Schema
 | Field          | Type    | Description                                   |
 | -------------- | ------- | --------------------------------------------- |
 | quote          | String  | Quote                                         |
@@ -56,26 +52,26 @@ The database for this project is built using MongoDB and Mongoose, and contains 
 
 # API Routes
 
-/chracters
+### /chracters
 <ul>
 <li>GET /characters/ Returns all the characters.</li>
 <li>GET /characters/id/ Returns the character by it's ID.</li>
 <li>POST /characters/ Creates a new character.</li>
 <li>PUT /characters/:id Updates an existing character.</li>
-<li>DELETE /:character/:id/ Deletes a character by characterId.</li>
+<li>DELETE /character/id/ Deletes a character by characterId.</li>
 </ul>
 
-/seasons
+### /seasons
 <ul>
 <li>GET /seasons/ Returns all the seasons.</li>
 <li>GET /seasons/id Returns the season by it's ID.</li>
-<li>PUT /seasons/:id Updates an existing season.</li>
+<li>PUT /seasons/id Updates an existing season.</li>
 </ul>
 
-/quotes
+### /quotes
 <ul>
 <li>GET /quotes/ Returns all the quotes.</li>
 <li>POST /quotes/ Creates a new quote.</li>
-<li>PUT /quotes/:id Updates an existing quote.</li>
-<li>DELETE /:quote/:id/ Deletes a quote by quotesId.</li>
+<li>PUT /quotes/id Updates an existing quote.</li>
+<li>DELETE /quote/id/ Deletes a quote by quotesId.</li>
 </ul>
