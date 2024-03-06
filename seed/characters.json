@@ -1,243 +1,262 @@
 [
-    {
-      "fullName": "Phil Dunphy",
-      "aliases": "Clive Bixby",
-      "gender": "Male",
-      "occupation": ["Realtor", "Magic Store Owner", "Parking Lot Owner"],
-      "family": [
-        "Frank Dunphy(Father)",
-        "Grace Dunphy(Mother)",
-        "Lorraine Dunphy(Stepmother)",
-        "Ray(Stepbrother)",
-        "Claire Dunphy(Spouse)",
-        "Haley Dunphy(Doughter)",
-        "Alex Dunphy(Doughter)",
-        "Luke Dunphy(Son)"
-      ],
-      "dateOfBirth": "04.03.1968",
-      "actor": "Ty Burrell",
-      "picture": "https://static.wikia.nocookie.net/modernfamily/images/2/20/Phil-S11.jpg"
-    },
-    {
-      "fullName": "Claire Dunphy",
-      "aliases": "Juliana",
-      "gender": "Female",
-      "occupation": [
-        "Vice President of Organize 'em",
-        "President of Pritchett Closets and Blinds (formerly)",
-        "Housewife (formerly)"
-      ],
-      "family": [
-        "Jay Pritchett (father)",
-        "DeDe Williams (mother; deceased)",
-        "Gloria Delgado-Pritchett (stepmother)",
-        "Mitchell Pritchett (brother)",
-        "Joe Pritchett (half brother)",
-        "Manny Delgado (stepbrother)",
-        "Phil Dunphy(Spouse)",
-        "Haley Dunphy (daughter)",
-        "Alex Dunphy (daughter)",
-        "Luke Dunphy (son)"
-      ],
-      "dateOfBirth": "03.31.1970",
-      "actor": "Julie Bowen",
-      "picture": "https://static.wikia.nocookie.net/modernfamily/images/7/76/Claire-S11.jpg"
-    },
-    {
-      "fullName": "Haley Gwendolyn Dunphy-Marshall",
-      "aliases": "Haley Bailey",
-      "gender": "Female",
-      "occupation": [
-        "Student (formerly)",
-        "Assistant fashion designer at Gavin Sinclair (formerly)",
-        "Style editor for Nerp (currently)"
-      ],
-      "family": [
-        "Phil Dunphy (father)",
-        "Claire Dunphy (mother)",
-        "Alex Dunphy (sister)",
-        "Luke Dunphy (brother)",
-        "Dylan Marshall(Spouse)"
-      ],
-      "dateOfBirth": "12.10.1993",
-      "actor": "Sarah Hyland Adams",
-      "picture": "https://www.refinery29.com/images/8454981.jpg"
-    },
-    {
-      "fullName": "Alexandra Dunphy",
-      "aliases": "Alex",
-      "gender": "Female",
-      "occupation": "Academic Researcher",
-      "family": [
-        "Phil Dunphy (father)",
-        "Claire Dunphy (mother)",
-        "Haley Dunphy (sister)",
-        "Luke Dunphy (brother)"
-      ],
-      "dateOfBirth": "01.14.1997",
-      "actor": "Ariel Winter",
-      "picture": "https://akns-images.eonline.com/eol_images/Entire_Site/201994/rs_1024x759-191004062942-1024-ariel-winter-mod-fam-ch-100419.jpg"
-    },
-    {
-      "fullName": "Lucas Philip Dunphy",
-      "aliases": "Luke",
-      "gender": "Male",
-      "occupation": "Student",
-      "family": [
-        "Phil Dunphy (father)",
-        "Claire Dunphy (mother)",
-        "Haley Dunphy (sister)",
-        "Alex Dunphy (sister)"
-      ],
-      "dateOfBirth": "11.28.1998",
-      "actor": "Nolan Gould",
-      "picture": "https://www.refinery29.com/images/8454977.jpg"
-    },
-    {
-      "fullName": "Dylan Marshall",
-      "aliases": "D-Money",
-      "gender": "Male",
-      "occupation": [
-        "Musician",
-        "Cowboy(formerly)",
-        "Disneyland employee(formerly)",
-        "Limo driver(formerly)",
-        "Sign spinner(formerly)",
-        "T-shirt designer(formerly)",
-        "Nursing student"
-      ],
-      "family": [
-        "Farrah Marshall (mother)",
-        "Unnamed sibling(s)",
-        "1 unnamed nephew"
-      ],
-      "dateOfBirth": "02.02.1990",
-      "actor": "Reid Ewing",
-      "picture": "https://ntvb.tmsimg.com/assets/assets/554845_v9_bb.jpg"
-    },
-    {
-      "fullName": "Jason Francis Pritchett",
-      "aliases": "Jay",
-      "gender": "Male",
-      "occupation": "Retired business owner",
-      "family": [
-        "Donnie Pritchett (brother)",
-        "Becky Pritchett (sister)",
-        "Gloria Delgado-Pritchett(spouse)"
-      ],
-      "dateOfBirth": "05.23.1946",
-      "actor": "Ed O'Neill",
-      "picture": "https://www.refinery29.com/images/8454989.jpg"
-    },
-    {
-      "fullName": "Gloria Delgado-Pritchett",
-      "aliases": "Charo",
-      "gender": "Female",
-      "occupation": [
-        "Hairdresser (formerly)",
-        "Taxi driver (formerly)",
-        "Housewife (formerly)",
-        "Realtor"
-      ],
-      "family": [
-        "Fulgencio Ramírez (father; deceased)",
-        "Pilar Ramírez (mother)",
-        "Sonia Ramírez (sister)",
-        "2 unnamed brothers",
-        "Jay Pritchett(Spouse)"
-      ],
-      "dateOfBirth": "01.06.1972",
-      "actor": "Sofía Vergara",
-      "picture": "https://www.refinery29.com/images/8454988.jpg"
-    },
-    {
-      "fullName": "Manuel Alberto Javier Alejandro Ramirez Delgado",
-      "aliases": "Manny",
-      "gender": "Male",
-      "occupation": "Student",
-      "family": [
-        "Javier Delgado (father)",
-        "Gloria Delgado-Pritchett (mother)",
-        "Jay Pritchett (stepfather)",
-        "Joe Pritchett (half brother)",
-        "Claire Dunphy (stepsister)",
-        "Mitchell Pritchett (stepbrother)"
-      ],
-      "dateOfBirth": "01.19.1999",
-      "actor": "Rico Rodriguez II",
-      "picture": "https://static.wikia.nocookie.net/familyguyfanon/images/e/e7/Manny_Delgado.jpg"
-    },
-    {
-      "fullName": "Fulgencio-Joseph Pritchett",
-      "aliases": "Joe",
-      "gender": "Male",
-      "occupation": "Student",
-      "family": [
-        "Jay Pritchett (father)",
-        "Gloria Delgado-Pritchett (mother)",
-        "Claire Dunphy (half-sister)",
-        "Mitchell Pritchett (half-brother)",
-        "Manny Delgado (half-brother)"
-      ],
-      "dateOfBirth": "01.20.2013",
-      "actor": "Jeremy Maguire",
-      "picture": "https://starrymag.com/wp-content/uploads/2018/11/JEREMYMAGUIRE_BIO_148805_1717-660x377.jpg"
-    },
-    {
-      "fullName": "Mitchell Vincent Pritchett",
-      "aliases": "Mitch",
-      "gender": "Male",
-      "occupation": "Lawyer",
-      "family": [
-        "Jay Pritchett (father)",
-        "DeDe Williams (mother; deceased)",
-        "Claire Dunphy (sister)",
-        "Joe Pritchett (half brother)",
-        "Gloria Delgado-Pritchett (stepmother)",
-        "Manny Delgado (stepbrother)",
-        "Cameron Tucker(Spouse)"
-      ],
-      "dateOfBirth": "06.30.1973",
-      "actor": "Jesse Tyler Ferguson",
-      "picture": "https://www.refinery29.com/images/8454974.jpg"
-    },
-    {
-      "fullName": "Cameron Scott Tucker",
-      "aliases": "Cam",
-      "gender": "Male",
-      "occupation": [
-        "Clown",
-        "Christmas Caroler",
-        "Music teacher",
-        "Middle school music teacher",
-        "History teacher",
-        "High School Football Coach & Physical Education Teacher",
-        "High school vice principal",
-        "College Football Head Coach"
-      ],
-      "family": [
-        "Merle Tucker (father)",
-        "Barbara 'Barb' Jammy Tucker (mother)",
-        "Pameron 'Pam' Jessica Tucker (sister)",
-        "2 unnamed biological siblings",
-        "Mitchell Vincent Pritchett(spouse)"
-      ],
-      "dateOfBirth": "02.29.1972",
-      "actor": "Eric Stonestreet",
-      "picture": "https://www.refinery29.com/images/8454960.jpg"
-    },
-    {
-      "fullName": "Lily Elizabeth Tucker-Pritchett",
-      "aliases": "Lily",
-      "gender": "Female",
-      "occupation": "Student",
-      "family": [
-        "Mitchell Pritchett (adoptive father)",
-        "Cameron Tucker (adoptive father)",
-        "Rexford Tucker-Pritchett (adoptive brother)"
-      ],
-      "dateOfBirth": "01.23.2008",
-      "actor": "Aubrey Anderson-Emmons",
-      "picture": "https://www.refinery29.com/images/8454985.jpg"
-    }
+  {
+    "fullName": "Phil Dunphy",
+    "aliases": "Clive Bixby",
+    "gender": "Male",
+    "occupation": [
+      "Realtor",
+      "Magic Store Owner",
+      "Parking Lot Owner"
+    ],
+    "family": [
+      "Frank Dunphy(Father)",
+      "Grace Dunphy(Mother)",
+      "Lorraine Dunphy(Stepmother)",
+      "Ray(Stepbrother)",
+      "Claire Dunphy(Spouse)",
+      "Haley Dunphy(Doughter)",
+      "Alex Dunphy(Doughter)",
+      "Luke Dunphy(Son)"
+    ],
+    "dateOfBirth": "04.03.1968",
+    "actor": "Ty Burrell",
+    "picture": "https://static.wikia.nocookie.net/modernfamily/images/2/20/Phil-S11.jpg"
+  },
+  {
+    "fullName": "Claire Dunphy",
+    "aliases": "Juliana",
+    "gender": "Female",
+    "occupation": [
+      "Vice President of Organize 'em",
+      "President of Pritchett Closets and Blinds (formerly)",
+      "Housewife (formerly)"
+    ],
+    "family": [
+      "Jay Pritchett (father)",
+      "DeDe Williams (mother; deceased)",
+      "Gloria Delgado-Pritchett (stepmother)",
+      "Mitchell Pritchett (brother)",
+      "Joe Pritchett (half brother)",
+      "Manny Delgado (stepbrother)",
+      "Phil Dunphy(Spouse)",
+      "Haley Dunphy (daughter)",
+      "Alex Dunphy (daughter)",
+      "Luke Dunphy (son)"
+    ],
+    "dateOfBirth": "03.31.1970",
+    "actor": "Julie Bowen",
+    "picture": "https://static.wikia.nocookie.net/modernfamily/images/7/76/Claire-S11.jpg"
+  },
+  {
+    "fullName": "Haley Gwendolyn Dunphy-Marshall",
+    "aliases": "Haley Bailey",
+    "gender": "Female",
+    "occupation": [
+      "Student (formerly)",
+      "Assistant fashion designer at Gavin Sinclair (formerly)",
+      "Style editor for Nerp (currently)"
+    ],
+    "family": [
+      "Phil Dunphy (father)",
+      "Claire Dunphy (mother)",
+      "Alex Dunphy (sister)",
+      "Luke Dunphy (brother)",
+      "Dylan Marshall(Spouse)"
+    ],
+    "dateOfBirth": "12.10.1993",
+    "actor": "Sarah Hyland Adams",
+    "picture": "https://www.refinery29.com/images/8454981.jpg"
+  },
+  {
+    "fullName": "Alexandra Dunphy",
+    "aliases": "Alex",
+    "gender": "Female",
+    "occupation": ["Academic Researcher"],
+    "family": [
+      "Phil Dunphy (father)",
+      "Claire Dunphy (mother)",
+      "Haley Dunphy (sister)",
+      "Luke Dunphy (brother)"
+    ],
+    "dateOfBirth": "01.14.1997",
+    "actor": "Ariel Winter",
+    "picture": "https://akns-images.eonline.com/eol_images/Entire_Site/201994/rs_1024x759-191004062942-1024-ariel-winter-mod-fam-ch-100419.jpg"
+  },
+  {
+    "fullName": "Lucas Philip Dunphy",
+    "aliases": "Luke",
+    "gender": "Male",
+    "occupation": ["Student"],
+    "family": [
+      "Phil Dunphy (father)",
+      "Claire Dunphy (mother)",
+      "Haley Dunphy (sister)",
+      "Alex Dunphy (sister)"
+    ],
+    "dateOfBirth": "11.28.1998",
+    "actor": "Nolan Gould",
+    "picture": "https://www.refinery29.com/images/8454977.jpg"
+  },
+  {
+    "fullName": "Dylan Marshall",
+    "aliases": "D-Money",
+    "gender": "Male",
+    "occupation": [
+      "Musician",
+      "Cowboy(formerly)",
+      "Disneyland employee(formerly)",
+      "Limo driver(formerly)",
+      "Sign spinner(formerly)",
+      "T-shirt designer(formerly)",
+      "Nursing student"
+    ],
+    "family": [
+      "Farrah Marshall (mother)",
+      "Unnamed sibling(s)",
+      "1 unnamed nephew"
+    ],
+    "dateOfBirth": "02.02.1990",
+    "actor": "Reid Ewing",
+    "picture": "https://ntvb.tmsimg.com/assets/assets/554845_v9_bb.jpg"
+  },
+  {
+    "fullName": "Jason Francis Pritchett",
+    "aliases": "Jay",
+    "gender": "Male",
+    "occupation": ["Retired business owner"],
+    "family": [
+      "Donnie Pritchett (brother)",
+      "Becky Pritchett (sister)",
+      "Gloria Delgado-Pritchett(spouse)"
+    ],
+    "dateOfBirth": "05.23.1946",
+    "actor": "Ed O'Neill",
+    "picture": "https://www.refinery29.com/images/8454989.jpg"
+  },
+  {
+    "fullName": "Gloria Delgado-Pritchett",
+    "aliases": "Charo",
+    "gender": "Female",
+    "occupation": [
+      "Hairdresser (formerly)",
+      "Taxi driver (formerly)",
+      "Housewife (formerly)",
+      "Realtor"
+    ],
+    "family": [
+      "Fulgencio Ramírez (father; deceased)",
+      "Pilar Ramírez (mother)",
+      "Sonia Ramírez (sister)",
+      "2 unnamed brothers",
+      "Jay Pritchett(Spouse)"
+    ],
+    "dateOfBirth": "01.06.1972",
+    "actor": "Sofía Vergara",
+    "picture": "https://www.refinery29.com/images/8454988.jpg"
+  },
+  {
+    "fullName": "Manuel Alberto Javier Alejandro Ramirez Delgado",
+    "aliases": "Manny",
+    "gender": "Male",
+    "occupation": ["Student"],
+    "family": [
+      "Javier Delgado (father)",
+      "Gloria Delgado-Pritchett (mother)",
+      "Jay Pritchett (stepfather)",
+      "Joe Pritchett (half brother)",
+      "Claire Dunphy (stepsister)",
+      "Mitchell Pritchett (stepbrother)"
+    ],
+    "dateOfBirth": "01.19.1999",
+    "actor": "Rico Rodriguez II",
+    "picture": "https://static.wikia.nocookie.net/familyguyfanon/images/e/e7/Manny_Delgado.jpg"
+  },
+  {
+    "fullName": "Fulgencio-Joseph Pritchett",
+    "aliases": "Joe",
+    "gender": "Male",
+    "occupation": ["Student"],
+    "family": [
+      "Jay Pritchett (father)",
+      "Gloria Delgado-Pritchett (mother)",
+      "Claire Dunphy (half-sister)",
+      "Mitchell Pritchett (half-brother)",
+      "Manny Delgado (half-brother)"
+    ],
+    "dateOfBirth": "01.20.2013",
+    "actor": "Jeremy Maguire",
+    "picture": "https://starrymag.com/wp-content/uploads/2018/11/JEREMYMAGUIRE_BIO_148805_1717-660x377.jpg"
+  },
+  {
+    "fullName": "Mitchell Vincent Pritchett",
+    "aliases": "Mitch",
+    "gender": "Male",
+    "occupation": ["Lawyer"],
+    "family": [
+      "Jay Pritchett (father)",
+      "DeDe Williams (mother; deceased)",
+      "Claire Dunphy (sister)",
+      "Joe Pritchett (half brother)",
+      "Gloria Delgado-Pritchett (stepmother)",
+      "Manny Delgado (stepbrother)",
+      "Cameron Tucker(Spouse)"
+    ],
+    "dateOfBirth": "06.30.1973",
+    "actor": "Jesse Tyler Ferguson",
+    "picture": "https://www.refinery29.com/images/8454974.jpg"
+  },
+  {
+    "fullName": "Cameron Scott Tucker",
+    "aliases": "Cam",
+    "gender": "Male",
+    "occupation": [
+      "Clown",
+      "Christmas Caroler",
+      "Music teacher",
+      "Middle school music teacher",
+      "History teacher",
+      "High School Football Coach & Physical Education Teacher",
+      "High school vice principal",
+      "College Football Head Coach"
+    ],
+    "family": [
+      "Merle Tucker (father)",
+      "Barbara 'Barb' Jammy Tucker (mother)",
+      "Pameron 'Pam' Jessica Tucker (sister)",
+      "2 unnamed biological siblings",
+      "Mitchell Vincent Pritchett(spouse)"
+    ],
+    "dateOfBirth": "02.29.1972",
+    "actor": "Eric Stonestreet",
+    "picture": "https://www.refinery29.com/images/8454960.jpg"
+  },
+  {
+    "fullName": "Lily Elizabeth Tucker-Pritchett",
+    "aliases": "Lily",
+    "gender": "Female",
+    "occupation": ["Student"],
+    "family": [
+      "Mitchell Pritchett (adoptive father)",
+      "Cameron Tucker (adoptive father)",
+      "Rexford Tucker-Pritchett (adoptive brother)"
+    ],
+    "dateOfBirth": "01.23.2008",
+    "actor": "Aubrey Anderson-Emmons",
+    "picture": "https://www.refinery29.com/images/8454985.jpg"
+  },
+  {
+    "fullName": "Franklin Bernard Dunphy",
+    "aliases": "Frank",
+    "gender": "Male",
+    "occupaiton": ["Owner of a grocery store(retired)"],
+    "family": [
+      "Lorraine Dunphy(spouse)",
+      "Grace Dunphy(spouse)",
+      "Phil Dunphy(son)",
+      "Ray(stepson)"
+    ],
+    "dateOfBirth": "unknown",
+    "actor": "Fred Willard",
+    "picture": "https://www.goldderby.com/wp-content/uploads/2020/08/fredwillard.jpg"
+  }
 ]
