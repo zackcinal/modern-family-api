@@ -3,22 +3,21 @@ import connection from "../db/connection.js";
 import charactersData from "./characters.json" assert { type: "json" };
 import Characters from "../models/Character.js";
 import Seasons from "../models/Season.js";
-import seasonsData from "./seasons.json" assert {type: "json"}
-import Quotes from "../models/Quote.js"
-import quotesData from "./quotes.json" assert { type: "json"}
+import seasonsData from "./seasons.json" assert { type: "json" };
+import Quotes from "../models/Quote.js";
+import quotesData from "./quotes.json" assert { type: "json" };
 
-Characters.deleteMany({})
-  .then(() => Characters.create(charactersData))
-  .catch((err) => console.log("Error", err));
+const insertData = async () => {
+  await Characters.deleteMany({});
+  await Characters.create(charactersData);
 
+  await Seasons.deleteMany({});
+  await Seasons.create(seasonsData);
 
-Seasons.deleteMany({})
-  .then(() => Seasons.create(seasonsData))
-  .catch((err) => console.log("Error", err))
+  await Quotes.deleteMany({});
+  await Quotes.create(quotesData);
 
+  await connection.close();
+};
 
-Quotes.deleteMany({})
-  .then(() => Quotes.create(quotesData))
-  .then(() => console.log("done"))
-  .then(() => mongoose.disconnect())
-  .catch((err) => console.log("Error", err))
+insertData();
