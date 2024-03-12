@@ -4,6 +4,9 @@ import Characters from "./models/Character.js";
 import Seasons from "./models/Season.js";
 import Quotes from "./models/Quote.js";
 
+
+const PORT = process.env.PORT || 3000
+
 const app = express();
 app.use(express.json());
 
@@ -105,4 +108,4 @@ app.delete("/quotes/:id", (req, res) => {
 
 
 
-app.listen(3000, () => console.log("Hello!"));
+app.listen(PORT, () => console.log("Hello!"));
