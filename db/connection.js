@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 
-connectionString = process.env.DB_URL || 'mongodb://localhost:27017/modernfamily'
+const connectionString = process.env.DB_URL || 'mongodb://localhost:27017/modernfamily'
 
 mongoose.connect(connectionString)
 
